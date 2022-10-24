@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../m.js">
+</head>
+<body>
+    <script>
+
+
+
+var obj = {
+
+    "name" : "asfer",
+    "place" : "devipattinam",
+    
+}
+
+
+
+var obj1 = {
+
+"name" : "asfer",
+"place" : "devipattinam"
+}
+function cp(obj,obj1){
+
+let key1 = Object.keys(obj)
+let key2 = Object.keys(obj1)
+
+
+
+    if(key1.length != key2.length){
+        return false
+    }
+
+for (var keys of key1){
+    if (keys[key1] != keys[key2]){
+        return false
+    }else {
+        return true
+    }
+}
+
+
+
+
+
+    }
+console.log(cp(obj,obj1))
+
+
+
+    </script>
+</body>
+</html>
